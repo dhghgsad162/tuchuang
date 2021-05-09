@@ -1,15 +1,45 @@
 {
-  "name": "tuchuang",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "init": "picpic init",
-    "build": "picpic build"
-  },
-  "author": "",
-  "license": "ISC"
+      "name": "@matrixage/picpic",
+      "version": "1.3.1",
+      "description": "A awesome image bed by github pages and github actions.",
+      "keywords": [
+            "picpic",
+            "picgo",
+            "image",
+            "img",
+            "markdown",
+            "md",
+            "bed",
+            "pic",
+            "nodejs",
+            "vue",
+            "js",
+            "github-gh",
+            "github-pages",
+            "github",
+            "pages"
+      ],
+      "scripts": {
+            "build": "node ./build/index.js"
+      },
+      "repository": {
+            "type": "git",
+            "url": "git+https://github.com/dhghgsad162/tuchuang.git"
+      },
+      "author": "matrixage",
+      "license": "MIT",
+      "bugs": {
+            "url": "https://github.com/dhghgsad162/tuchuang/issues"
+      },
+      "homepage": "https://github.com/dhghgsad162/tuchuang#readme",
+      "dependencies": {
+            "@matrixage/atom.css": "^2.0.1",
+            "dree": "^2.5.0",
+            "fs-extra": "^9.0.1",
+            "globby": "^11.0.1",
+            "imageinfo": "^1.0.4"
+      },
+      "bin": {
+            "picpic": "./bin/index.js"
+      }
 }
